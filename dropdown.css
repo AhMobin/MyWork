@@ -1,0 +1,216 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	font-size: 14.5px;
+}
+
+ul li{
+	list-style: none;
+}
+
+#container{
+	width: 100%;
+}
+
+#wrapper{
+	width: 980px;
+	margin: 0 auto;
+}
+
+h3{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 12px;
+	margin: 0;
+	padding: 0 0 12px 0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li.pad{
+	float: left;
+}
+
+#holder li{
+	color: #838080;
+	text-decoration: none;
+	transition: .1s;
+}
+
+a{
+	color: #838080;
+	text-decoration: none;
+	display: block;
+	transition: 0.1s;
+}
+
+.pad a{
+	padding: 18px 17px 22px 17px;
+}
+
+#holder ul{
+	width: 100%;
+}
+
+#holder ul li span{
+	padding: 7px 0;
+}
+
+.pad > a:hover, .using > li:hover > a{
+	background: #262626;
+}
+
+#software ul li a:hover span{
+	border-bottom: 2px solid #FF6E00;
+	transition: 0.1s;
+}
+
+#t_d ul li a:hover span, .using > li:hover > a > span{
+	border-bottom: 2px solid #FF6E00;
+	transition: 0.1s;
+}
+
+#vfx ul li a:hover span, #vfx .using > li:hover > a > span{
+	border-bottom: 2px solid #6159CC;
+	transition: 0.1s;
+}
+
+.sub_wrapper_vfx{
+	border-bottom: 5px solid #6159CC;
+}
+
+.sub_wrapper_vfx a:hover{
+	color: #6159CC;
+	transition: 0.3s;
+}
+
+#game ul li a:hover span, #game .using > li:hover > a > span{
+	border-bottom: 2px solid #78BA42;
+	transition: 0.1s;
+}
+
+.sub_wrapper_game{
+	border-bottom: 5px solid #78BA42;
+}
+
+.sub_wrapper_game a:hover{
+	color: #78BA42;
+	transition: 0.3s;
+}
+
+
+#design ul li a:hover span, #design .using > li:hover > a > span{
+	border-bottom: 2px solid #FA9C14;
+	transition: 0.1s;
+}
+
+.sub_wrapper_design{
+	border-bottom: 5px solid #FA9C14;
+}
+
+.sub_wrapper_design a:hover{
+	color: #FA9C14;
+	transition: 0.3s;
+}
+
+#web ul li a:hover span, #web .using > li:hover > a > span{
+	border-bottom: 2px solid #CA3723;
+	transition: 0.1s;
+}
+
+.sub_wrapper_web{
+	border-bottom: 5px solid #CA3723;
+}
+
+.sub_wrapper_web a:hover{
+	color: #CA3723;
+	transition: 0.3s;
+}
+
+#cad ul li a:hover span, #cad .using > li:hover > a > span{
+	border-bottom: 2px solid #1CA6E0;
+	transition: 0.1s;
+}
+
+.sub_wrapper_cad{
+	border-bottom: 5px solid #1CA6E0;
+}
+
+.sub_wrapper_cad a:hover{
+	color: #1CA6E0;
+	transition: 0.3s;
+}
+
+#devit ul li a:hover span{
+	border-bottom: 2px solid #F26621;
+	transition: 0.1s;
+}
+
+#blog ul li a:hover span{
+	border-bottom: 2px solid #777777;
+	transition: 0.1s;
+}
+
+.sub_wrapper_vfx, .sub_wrapper_game, .sub_wrapper_design, .sub_wrapper_web, .sub_wrapper_cad{
+
+	width: 100%;
+	height: auto;
+	background: #262626;
+	position: absolute;
+	left: 0;
+	padding: 40px 0;
+}
+
+#holder ul li > ul{
+	position: absolute;
+	left: -999999px;
+}
+
+#holder ul li:hover ul{
+	left: 0;
+}
+
+.sub_con{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.sub_1{
+	float: left;
+	width: 250px;
+}
+
+.sub_hol ul li a{
+	padding: 8px 0;
+	font-size: 13px;
+	transition: 0.3s;
+}
+
+.sub_m{
+	padding-left: 20px;
+	float: left;
+	border-left: 1px solid #4D4D4D;
+	border-right: 1px solid #4D4D4D;
+	padding-right: 100px;
+}
+
+.sub_inner_left{
+	float: left;
+	width: 135px;
+}
+
+.sub_inner_right{
+	float: right;
+	width: 135px;
+}
+
+.sub_right{
+	float: right;
+	padding: 40px;
+}
